@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qeydiyyat Formu</title>
+</head>
+<body>
+
+    <h1>İstifadəçi Qeydiyyatı</h1>
+
+    <form>
+        <label for="ad">Adınız:</label><br>
+        <input type="text" id="ad" name="ad"><br><br>
+
+        <label for="email">Email ünvanınız:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="sifre">Şifrə:</label><br>
+        <input type="password" id="sifre" name="sifre"><br><br>
+        
+
+        <label for="yas">Yaşınız:</label><br>
+        <input type="number" id="yas" name="yas"><br><br>
+
+        <label for="tarix">Doğum tarixi:</label><br>
+        <input type="date" id="tarix" name="tarix"><br><br>
+
+        <label for="tel">Telefon:</label><br>
+        <input type="tel" id="tel" name="telefon"><br><br>
+
+        <label>Cinsiniz:</label><br>
+        <input type="radio" id="kisi" name="cins" value="kisi">
+        <label for="kisi">Kişi</label>
+        
+        <input type="radio" id="qadin" name="cins" value="qadin">
+        <label for="qadin">Qadın</label><br><br>
+        
+
+        <label>Hobbiləriniz:</label><br>
+        <input type="checkbox" id="idman" name="hobbi" value="idman">
+        <label for="idman">İdman</label>
+        
+        <input type="checkbox" id="musiqi" name="hobbi" value="musiqi">
+        <label for="musiqi">Musiqi</label>
+        
+        <input type="checkbox" id="seyahet" name="hobbi" value="seyahet">
+        <label for="seyahet">Səyahət</label>
+        <br><br>
+
+        <label for="olke">Ölkə seçin:</label><br>
+        <select id="olke" name="olke">
+            <option value="az">Azərbaycan</option>
+            <option value="tr">Türkiyə</option>
+            <option value="de">Almaniya</option>
+        </select>
+        <br><br>
+
+        <label for="mesaj">Əlavə qeydlər:</label><br>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <button type="submit">Göndər</button>
+        <button type="reset">Təmizlə</button>
+
+    </form>
+
+</body>
+</html>
